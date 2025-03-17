@@ -1,0 +1,21 @@
+# PYTHON CLASS PROJECT
+
+# CODE TO CALCULATE SIMPLE INTEREST,
+# COMPOUND INTEREST, AND ANNUITY PLAN
+
+
+P = 1000000  # Principal Amount
+R = 0.05     # Interest Rate (5%)
+T = 5        # Time in Years
+N = 5      # Number of Times Interest is Compounded Per Year
+PMT = 25000  # Annuity Periodic Payment
+
+# Correct Formulas
+si = P * (1 + (R / 100) * T)  # Simple Interest
+ci = P * (1 + R / N) ** (N * T)  # Compound Interest
+an = PMT * (((1 + R / N) ** (N * T) - 1) / (R / N))  # Annuity Plan
+
+# Print Results
+print("Simple Interest:", si)
+print("Compound Interest:", ci)
+print("Annuity Plan:", an)
