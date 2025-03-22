@@ -1,0 +1,13 @@
+START  
+Set total cost to 0  
+Ask the user for the number of items  
+      
+Use a loop to repeat for each item:
+    - Ask for the item's name  
+    - Ask for the item's quantity  
+    - Ask for the item's cost  
+    - Multiply cost by quantity and add to total cost  
+      
+Display the total cost  
+Print "Thank you for shopping with us!"  
+END  
