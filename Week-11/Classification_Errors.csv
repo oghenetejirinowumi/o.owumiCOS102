@@ -1,0 +1,5 @@
+MatNo,Name,Age,Error
+1818,Kolawole Alabi,27,ERROR: Age above 25 is not allowed for classification.
+1826,Adelabu Glory,26,ERROR: Age above 25 is not allowed for classification.
+1828,Abraham Esther,28,ERROR: Age above 25 is not allowed for classification.
+1829,Agbara Jamiat,26,ERROR: Age above 25 is not allowed for classification.

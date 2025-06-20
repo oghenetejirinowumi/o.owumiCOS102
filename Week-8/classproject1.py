@@ -13,7 +13,7 @@ class EmployeeSystem:
         self.tasks = ["Loading", "Transporting", "Reviewing Orders", "Customer Service", "Delivering Items"]
 
     def check_employee(self, name):
-        return name.title() in self.employees
+        return name.title() in self.employees 
 
     def assign_task(self):
         return random.choice(self.tasks)
